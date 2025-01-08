@@ -1,0 +1,6 @@
+site_name: DIS18 Forschungsdaten
+nav:
+nav:
+  - Home: index.md
+  - About: about.md
+theme: material
