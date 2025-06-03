@@ -3,4 +3,8 @@ nav:
 nav:
   - Home: index.md
   - About: about.md
+  - Goals: goals.md
+  - Insights: insights.md
+  - Analysis: analysis.md
+  - Tools: tools.md
 theme: material
