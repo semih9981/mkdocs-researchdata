@@ -1,20 +1,25 @@
-# Welcome to MkDocs
+# Genomdaten-Projekt: Übersicht
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Willkommen zur Projektdokumentation!
 
-## Commands
+Ziel dieses Projekts ist es, genetische Sequenzdaten – insbesondere kleine nicht-kodierende RNAs (small non-coding RNAs) – zu analysieren, zu vereinfachen und in strukturierter Form für weitere Analysen aufzubereiten. Dabei kommen unter anderem semantische Technologien wie Wikibase und SPARQL zum Einsatz.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
+## Was finde ich in diesem Repository?
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- **Dokumentation** – Projektbeschreibung, Präsentationen und begleitende Texte
+- **Preprocessing-Skripte** – Tools zur Sequenzverarbeitung und Vereinfachung
+- **SPARQL-Queries** – Abfragen zur gezielten Informationsgewinnung
+- **Datenbank-Snapshots** – Vorher-/Nachher-Versionen der verwendeten Datenbanken
+- **Paper** – Referenzartikel: [PMC3531160](https://pmc.ncbi.nlm.nih.gov/articles/PMC3531160/)
+- **Lizenz** – Informationen zur Nutzung der Inhalte
 
+---
 
-        test
+## Was diese Dokumentation abdeckt
+
+- Herkunft und Auswahl der Daten
+- Verarbeitung und Analyse
+- Visualisierungen und Darstellungsentscheidungen
+- Projektziele und Ausblick
