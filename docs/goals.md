@@ -1,37 +1,43 @@
-# Langfristige Projektziele
+# Long-term Project Goals
 
-Diese Datei dokumentiert die übergeordneten Ziele des Projekts – sowohl im Hinblick auf biologische Erkenntnisse als auch auf methodische und technische Weiterentwicklungen.
-
----
-
-## 1. Biologische Erkenntnisse
-
-Das Projekt zielt darauf ab, neue Einsichten in die biologische Bedeutung nicht-kodierender RNAs zu gewinnen. Dazu gehört:
-
-- **Analyse spezifischer Gen-Funktionalitäten**  
-  Zum Beispiel das Gen `rnpB`, das eine Schlüsselrolle in der RNA-Verarbeitung spielt.
-
-- **Untersuchung der Strangrichtung**  
-  Wie beeinflusst die Leserichtung die Genexpression und regulatorische Prozesse?
-
-- **Systematische Klassifikation von sRNAs**  
-  Welche funktionellen Gruppen lassen sich erkennen, und wie häufig treten sie bei bestimmten Organismen auf?
+This file outlines the overarching goals of the project—both in terms of biological insights and the development of methodological and technical approaches.
 
 ---
 
-## 2. Methodenentwicklung
+## 1. Biological Insights
 
-Neben biologischen Fragestellungen steht auch die Entwicklung nachhaltiger Methoden im Fokus:
+The project aims to generate new knowledge about the biological significance of non-coding RNAs. This includes:
 
-- **Automatisierte Verarbeitungspipelines**  
-  Entwicklung von robusten Skripten zur Verarbeitung, Filterung und Standardisierung genetischer Sequenzdaten.
+* **Analysis of specific gene functionalities**
 
-- **Strukturierung & Integration in semantische Systeme (z. B. Wikibase Cloud)**  
-  Überführung biologischer Rohdaten in strukturierte, verlinkte Wissenssysteme zur besseren Abfrage und Analyse.
+  For example, the gene `rnpB`, which plays a key role in RNA processing.
 
-- **Aufbau einer relationalen Datenbank / Wissensdatenbank**  
-  Ermöglicht Abfragen wie z. B. „Zeige alle small non-coding RNAs bei _E. coli_ mit mehr als 80 Basen“.
+* **Investigation of strand orientation**
 
-- **Verknüpfung mit externen Datenquellen**  
-  Integration von Referenzdaten aus Rfam, NCBI oder spezifischen Organismendatenbanken.
+  How does the reading direction influence gene expression and regulatory processes?
 
+* **Systematic classification of sRNAs**
+
+  Which functional groups can be identified, and how frequently do they occur in specific organisms?
+
+---
+
+## 2. Method Development
+
+In addition to biological questions, the project is focused on advancing sustainable methodological approaches:
+
+* **Automated processing pipelines**
+
+  Development of robust scripts for processing, filtering, and standardizing genetic sequence data.
+
+* **Structuring & integration into semantic systems (e.g., Wikibase Cloud)**
+
+  Transformation of raw biological data into structured, linked knowledge systems to enable better querying and analysis.
+
+* **Establishment of a relational database / knowledge base**
+
+  This enables queries such as “Show all small non-coding RNAs in *E. coli* with more than 80 bases”.
+
+* **Linking with external data sources**
+
+  Integration of reference data from Rfam, NCBI, or organism-specific databases.

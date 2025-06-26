@@ -1,30 +1,33 @@
-# Verarbeitung & Analyse
+# Processing & Analysis
 
-## Datenverarbeitung
+## Data Processing
 
-- Parsing der FASTA-Dateien
-- Erstellung von Sequenzstatistiken
-- Mustererkennung
-- Klassifikation nach Strangrichtung
+* Parsing of FASTA files
+* Generation of sequence statistics
+* Pattern recognition
+* Classification by strand orientation
 
-## Crunching mit Python
+## Crunching with Python
 
 Tools: `pandas`, `matplotlib`
 
-Beispiele:
-- Sequenzlänge
-- Nukleotidzusammensetzung (A, T, C, G)
+Examples:
 
+* Sequence length
+* Nucleotide composition (A, T, C, G)
 
-## Sequenzvereinfachung & Export
+## Sequence Simplification & Export
 
-### Vereinfachte Darstellung statt Vollsequenz 
-- Vollständige RNA-Sequenzen sind oft mehrere 1000 Basen lang
-Für Wikibase-Integration ungeeignet → Entscheidung für gekürzte Darstellung
-- Stattdessen: Speicherung von Länge, Basenhäufigkeit, ID, Typ
+### Simplified Representation Instead of Full Sequence
 
-### Export zur Wikibase Cloud Instanz
-- Strukturierte Items: RNA, Organismus, Länge, Strang, Typ
-- SPARQL-Queries ermöglichen z. B.: 
-  - Alle RNAs eines bestimmten Organismus 
-  - Filterung nach Längenbereichen oder RNA-Typ
+* Complete RNA sequences are often several thousand bases long
+  Not suitable for Wikibase integration → decision for a shortened representation
+* Instead: storage of length, base frequency, ID, type
+
+### Export to Wikibase Cloud Instance
+
+* Structured items: RNA, organism, length, strand, type
+* SPARQL queries enable, for example:
+
+  * All RNAs of a specific organism
+  * Filtering by length ranges or RNA type

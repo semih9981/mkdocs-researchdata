@@ -1,64 +1,65 @@
-# Verwendete Tools und Technologien
+# Tools and Technologies Used
 
-Diese Datei listet alle Werkzeuge und Bibliotheken auf, die im Rahmen des Projekts genutzt wurden – inklusive kurzer Beschreibung ihrer Funktion und Einsatzbereiche.
+This file lists all tools and libraries utilized throughout the project, including a brief description of their function and areas of application.
 
 ---
 
-## Programmiersprache & Bibliotheken
+## Programming Language & Libraries
 
 ### Python
-Zentrale Programmiersprache für die Datenverarbeitung.
 
-#### Genutzte Python-Bibliotheken:
+The main programming language for data processing.
 
-- **pandas**  
-  Für tabellarische Datenverarbeitung und statistische Auswertungen.
+#### Python Libraries Used:
 
-- **numpy**  
-  Für numerische Operationen auf Sequenzdaten.
+* **pandas**
+  For tabular data processing and statistical analysis.
 
-- **matplotlib**  
-  Zur Visualisierung von Sequenzstatistiken (z. B. Längenverteilungen, Basenzusammensetzung).
+* **numpy**
+  For numerical operations on sequence data.
+
+* **matplotlib**
+  For visualization of sequence statistics (e.g., length distributions, nucleotide composition).
 
 ---
 
-## Datenbank & Semantische Technologien
+## Database & Semantic Technologies
 
 ### Wikibase Cloud
-Wurde zur strukturierten Speicherung der genetischen Daten verwendet. Diente auch als Plattform für SPARQL-Abfragen.
 
-- **SPARQL**  
-  Abfragesprache zum Extrahieren spezifischer Informationen aus der Wikibase-Instanz.
+Used for structured storage of genetic data. Also served as the platform for SPARQL queries.
 
-- **Wikibase API**  
-  Sollte zur automatisierten Befüllung und Pflege verwendet werden, funktionierte nur teilweise (siehe Insights).
+* **SPARQL**
+  Query language for extracting specific information from the Wikibase instance.
+
+* **Wikibase API**
+  Intended for automated population and maintenance of the database; worked only partially (see Insights).
 
 ---
 
-## Versionskontrolle
+## Version Control
 
 ### Git & GitHub
-Zur Versionierung des Codes, der Daten und der Dokumentation. GitHub diente zudem zur Teamkoordination und für die Präsentation des Repos.
+
+Used for versioning code, data, and documentation. GitHub also served for team coordination and presenting the repository.
 
 ---
 
-## Datenquellen
+## Data Sources
 
-- **FASTA-Dateien**  
-  Enthaltene Rohdaten, bestehend aus DNA/RNA-Sequenzen (z. B. von [Rfam.org](https://rfam.org)).
+* **FASTA files**
+  Contained raw data, consisting of DNA/RNA sequences (e.g., from [Rfam.org](https://rfam.org)).
 
-- **Wissenschaftliches Paper**  
-  Genutzt als fachlicher Hintergrund und Referenz:  
+* **Scientific paper**
+  Used as a technical reference and background:
   [PMC3531160](https://pmc.ncbi.nlm.nih.gov/articles/PMC3531160/)
 
 ---
 
-## Weitere Tools
+## Additional Tools
 
-- **Markdown**  
+* **Markdown**
+  For creating project documentation (README, Insights, Tools, etc.).
 
-  Für die Erstellung der Projektdokumentation (README, Insights, Tools etc.).
-
-- **GitHub Pages** 
- 
-  Zur Veröffentlichung und Navigation der Projektdokumentation.
+* **GitHub Pages**
+  For publishing and navigating the project documentation.
