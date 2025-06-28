@@ -38,7 +38,6 @@ The following tools and methods were used for the implementation of the project:
 ## 3. What Worked Well
 
 * The preprocessing scripts reliably read and processed the sequences
-* Visualizations helped identify important patterns and distributions in the data
 * SPARQL queries provided accurate and targeted results for data analysis
 * **Wikibase-cli** worked well for creating and editing entries via the shell, although uploading nearly 40,000 records took several hours
 

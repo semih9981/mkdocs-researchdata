@@ -14,13 +14,6 @@ The main programming language for data processing.
 
 * **pandas**
   For tabular data processing and statistical analysis.
-
-* **numpy**
-  For numerical operations on sequence data.
-
-* **matplotlib**
-  For visualization of sequence statistics (e.g., length distributions, nucleotide composition).
-
 ---
 
 ## Database & Semantic Technologies
