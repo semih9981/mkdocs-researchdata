@@ -9,7 +9,7 @@
 
 ## Crunching with Python
 
-Tools: `pandas`, `matplotlib`
+Tools: `pandas`
 
 Examples:
 
